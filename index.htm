@@ -2,6 +2,31 @@
 <html lang="en">
 <head>
 <title>First site A extremly silly one</title>
+<style>
+    table {
+      width:100%;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+    }
+    #t01 tr:nth-child(even) {
+      background-color: #eee;
+    }
+    #t01 tr:nth-child(odd) {
+     background-color: #fff;
+    }
+    #t01 th {
+      background-color: black;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>    
 </head>
 <body style="background-color: rgb(151, 32, 32);">
 
@@ -38,7 +63,7 @@ ignores it.
 <hr>
 <h2>And gues what this is.</h2>
 <p>Even more text.</p>
-<pre>
+<pre id="C1">
     HTML is fun to learn
     But also very interesting
     This was mine poem
@@ -95,10 +120,95 @@ earth or maybe mars
 <h1 style="border:10px solid Tomato">This is a border</h1>
 <a href="https://www.youtube.com/watch?v=doEqUhFiQS4" target="_self">A great vid</a>
 <br>
-<a href="https://www.youtube.com/watch?v=doEqUhFiQS4"><img scr="pokemon-arceus-and-the-jewel-of-life.jpg" style="width:50px;height:50px;"></a>
+<a href="https://www.youtube.com/watch?v=doEqUhFiQS4"><img scr="pokemon-arceus-and-the-jewel-of-life.jpg" alt="pokemon picture" style="width:50px;height:50px;"></a>
 <br>
 <a href="mailto:mail@mail.mail">Send Mail</a>
 <button onclick="document.location='blm_icon.gif'">Python gif</button>
+<br>
+<a href="#C1">Jump to the rainbow</a>
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;">
+<br>
+<img src="killer-whale.png" alt="Whale job done" style="float: right;width: 100px;height: 60px;">
+<img src="86-865262_kanna-confused-discord-emoji-transparent-anime-discord-emojis.png" alt="????" usemap="#???" style="width: 100px; height: 100px;">
+<map name="???">
+    <area shape="rect" coords="0, 100, 100, 0" onclick="myFunction()">
+</map>
+<script>
+function myFunction() {
+    alert("You clicker the picture");
+}
+</script>
+</style>
+</head>
+<body>
+
+<h2>Styling Tables</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<br>
+
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<ul>
+    <li>Coffee</li>
+    <li>Coffee</li>
+    <li>unodered list</li>
+</ul>
+<ol>
+    <li>Beer</li>
+    <li>Beer</li>
+    <li>Ordered list</li>
+</ol>
+<dl>
+    <dt>Coffee</dt>
+    <dd>- Hot drink that tatest good</dd>
+    <dt>Beer</dt>
+    <dd>- Cold brown drink where you can get drunk from</dd>
+</dl>
+<div style="border: 1px solid greenyellow">Hello Site watchers</div>
+<p>We need a <span style="border: 1px solid burlywood">border around this</span> or not</p>
+<iframe src="index.htm" style="height: 300px;width:1000px;border:solid;" title="iframe"></iframe>
 
 </body>
 </html>
